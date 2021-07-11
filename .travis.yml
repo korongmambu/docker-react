@@ -6,3 +6,7 @@ before_install:
 
 script:
   - docker run korongmambu/docker-react npm run test -- --coverage
+
+deploy:
+  on:
+    branch: master
